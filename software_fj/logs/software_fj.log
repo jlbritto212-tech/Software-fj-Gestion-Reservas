@@ -1,0 +1,30 @@
+2026-11-22 21:08:14,696 | INFO | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-22 21:08:14,696 | INFO | Cliente registrado: Cliente #1: Ana Gómez | Doc: 1020304050 | ana@correo.com | Tel: 3001234567
+2026-11-22 21:08:14,696 | ERROR | Registro de cliente fallido: Correo inválido: 'pedro-correo.com'.
+2026-11-22 21:08:14,696 | INFO | Cliente registrado: Cliente #3: Carlos Pérez | Doc: 80123456 | carlos@mail.com | Tel: 3205551234
+2026-11-22 21:08:14,696 | ERROR | Registro de cliente fallido: Documento inválido: 'ABC123'.
+2026-11-22 21:08:14,696 | ERROR | Registro de cliente fallido: El nombre debe ser texto.
+2026-11-22 21:08:14,696 | INFO | Servicio creado: Sala 'Sala Ejecutiva' (cap. 12) - $50,000/h - disponible
+2026-11-22 21:08:14,696 | INFO | Servicio creado: Equipo 'Videobeam HD' (Proyector) - $20,000/h + seguro - disponible
+2026-11-22 21:08:14,697 | INFO | Servicio creado: Asesoría 'Asesoría en Python' (nivel senior) - $80,000/h - NO disponible
+2026-11-22 21:08:14,697 | ERROR | Creación de servicio fallida (ReservaSala): Tarifa inválida: -100.
+2026-11-22 21:08:14,697 | ERROR | Creación de servicio fallida (AsesoriaEspecializada): Nivel inválido: 'maestro'. Opciones: ['junior', 'senior', 'experto'].
+2026-11-22 21:08:14,697 | ERROR | Parámetros incorrectos para AlquilerEquipo: AlquilerEquipo.__init__() missing 2 required positional arguments: 'tarifa_hora' and 'tipo_equipo'
+2026-11-22 21:08:14,697 | INFO | Reserva #11 confirmada.
+2026-11-22 21:08:14,697 | DEBUG | Intento de creación de reserva finalizado.
+2026-11-22 21:08:14,697 | INFO | Reserva #11 procesada. Costo total: $178,500.00
+2026-11-22 21:08:14,697 | DEBUG | Fin del intento de procesamiento de la reserva #11.
+2026-11-22 21:08:14,697 | ERROR | Reserva fallida: Horas inválidas para sala (1-12): 50.
+2026-11-22 21:08:14,697 | DEBUG | Intento de creación de reserva finalizado.
+2026-11-22 21:08:14,697 | ERROR | Reserva fallida: El servicio 'Asesoría en Python' no está disponible.
+2026-11-22 21:08:14,697 | DEBUG | Intento de creación de reserva finalizado.
+2026-11-22 21:08:14,697 | ERROR | Cancelación fallida: No se puede cancelar una reserva PROCESADA.
+2026-11-22 21:08:14,697 | ERROR | Reserva fallida: La reserva requiere un cliente válido.
+2026-11-22 21:08:14,697 | DEBUG | Intento de creación de reserva finalizado.
+2026-11-22 21:08:14,697 | ERROR | Cálculo inválido: Impuesto (0.19) o descuento (0.9) fuera de rango.
+2026-11-22 21:08:14,697 | INFO | Reserva #15 confirmada.
+2026-11-22 21:08:14,697 | DEBUG | Intento de creación de reserva finalizado.
+2026-11-22 21:08:14,697 | INFO | Reserva #15 cancelada.
+2026-11-22 21:08:14,697 | ERROR | Reserva #15: No se puede procesar una reserva CANCELADA.
+2026-11-22 21:08:14,697 | DEBUG | Fin del intento de procesamiento de la reserva #15.
+2026-11-22 21:08:14,697 | INFO | ===== FIN DE LA SIMULACIÓN =====
